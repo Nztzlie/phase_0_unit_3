@@ -5,7 +5,8 @@
 
 
 ### My Quiz Results:
-<!-- Include the link to your image (saved in the imgs folder) to display it inline. -->
+
+![Quizzez](images/SQLZoo.png)
 
 
 
@@ -13,3 +14,4 @@
 
 
 ### Reflection
+This was a fun way to do simple SQL

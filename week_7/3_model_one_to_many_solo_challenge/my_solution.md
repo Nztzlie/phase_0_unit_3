@@ -36,7 +36,8 @@ One to many because each tweet belongs to one user, and a user can have many twe
 <!-- because... -->
 
 ## Release 3: Schema Design
-<!-- Include your image (inline) of your schema -->
+
+![Image](images/User_Tweets.png)
 
 ## Release 4: SQL Statements
 
@@ -51,10 +52,8 @@ all the tweets associated with a given user's twitter handle
 SELECT tweets FROM WHERE twitter_name = given twitter handle
 
 the twitter handle associated with a given tweet id
-SELECT twitter_name FROM 
+SELECT twitter_name FROM tweets WHERE user_ID = some value
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
 
 ## Release 5: Reflection
-Though the general concepts were not so bad, I was concerned that I could have been more accurate with this one. 
-
-<!-- Be sure to add your reflection here!!! -->
+Interesting to practice ways to call specific data from databases.
