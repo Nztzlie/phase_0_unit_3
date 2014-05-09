@@ -13,7 +13,7 @@
 
 
 # Pseudocode
-# Define a class named ShoppingList
+#   Define a class named ShoppingList
 #   Initialize (itmes) 
 #   Define methods related to the user story
 #   Test the class ShoppingList and its methods

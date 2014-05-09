@@ -1,44 +1,44 @@
 ## Release 2: Basic Git Commands
 Define the following commands and describe how they work/what they do.  
 
-
 #### add
-<!-- Your defnition here -->
+Add files for staging.
 
 #### branch
-<!-- Your defnition here -->
+List branches and tell you which branch you are in.
 
 #### checkout
-<!-- Your defnition here -->
+For switching, for example, git checkout <branchname> moves from one branch to another.
 
 #### clone
-<!-- Your defnition here -->
+Create a working copy of a repo.
 
 #### commit
-<!-- Your defnition here -->
+Commit files and changes.
 
 #### fetch
-<!-- Your defnition here -->
+Can use it to fetch previous versions, for example, git fetch origin
 
 #### log
-<!-- Your defnition here -->
+List version history for the current branch
 
 #### merge
-<!-- Your defnition here -->
+Combine the branch history into the current branch
 
 #### pull
-<!-- Your defnition here -->
+Download bookmark history and incorporate changes
 
 #### push
-<!-- Your defnition here -->
+Upload all local branch commits to GitHub
 
 #### reset
-<!-- Your defnition here -->
+Undo and go back to specified commit
 
 #### rm
-<!-- Your defnition here -->
+Remove the file
 
 #### status
+List all new or modified files to be committed.
 
 
 ## Release 3: Git Workflow

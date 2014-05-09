@@ -52,7 +52,12 @@ voteCount would be ...
   }
 
 */
-
+  for (var stats = {}, potus, i = President.length; i--;) {
+    if (!((potus = President[i]) in stats)
+      stats[potus] = 0; // Initialize a new counter
+    stats[potus]++;
+  }
+  (http://stackoverflow.com/questions/10900591/tally-up-repeated-items-in-array)
 
 /* Once the votes have been tallied, assign each officer position the name of the 
 student who received the most votes. */
