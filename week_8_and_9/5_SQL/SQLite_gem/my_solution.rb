@@ -21,7 +21,10 @@ end
 
 def print_lowest_grade_level_speakers
   puts "LOWEST GRADE LEVEL SPEAKERS (less than < 8th grade)"
+  grade_level = $db.execute("SELECT name FROM congress_members WHERE location = 'AZ'")
+  puts grade_level
 end
+
 
 def print_separator
   puts 
