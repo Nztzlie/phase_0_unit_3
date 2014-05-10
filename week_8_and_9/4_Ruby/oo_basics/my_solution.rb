@@ -1,10 +1,9 @@
 # U3.W8-9: OO Basics: Student
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge by myself.
 
 # 2. Pseudocode
-
 
 
 # 3. Initial Solution
@@ -16,7 +15,6 @@ class Student
     #your code here
   end
 end
-
 
 # 4. Refactored Solution
 
@@ -44,8 +42,7 @@ p students[0].letter_grade == 'B'
 p linear_search(students, "Alex") == 0
 p linear_search(students, "NOT A STUDENT") == -1
 
-
-
-
-
 # 5. Reflection 
+
+
+
